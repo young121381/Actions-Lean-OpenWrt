@@ -22,7 +22,7 @@ on:
 #    branches:
 #      - master
 #    paths:
-#      - 'r3g.config'
+#      - 'rpi4.config'
 #  schedule:
 #    - cron: 0 8 * * 5
 #  watch:
@@ -32,7 +32,7 @@ env:
   REPO_URL: https://gitee.com/fengfff/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: r3g.config
+  CONFIG_FILE: rpi4.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   SSH_ACTIONS: false
