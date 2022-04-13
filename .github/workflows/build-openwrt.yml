@@ -32,6 +32,7 @@ env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
+  CPU_clk: 102-mt7621-fix-cpu-clk-add-clkdev.patch
   CONFIG_FILE: r3g.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
