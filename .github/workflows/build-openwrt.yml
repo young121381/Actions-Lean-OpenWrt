@@ -22,18 +22,18 @@ on:
 #    branches:
 #      - master
 #    paths:
-#      - 'rpi4.config'
+#      - 'r3g.config'
 #  schedule:
 #    - cron: 0 8 * * 5
 #  watch:
 #    types: started
 
 env:
-  REPO_URL: https://github.com/x-wrt/x-wrt
+  REPO_URL: https://gitee.com/fengfff/lede
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CPU_clk: 102-mt7621-fix-cpu-clk-add-clkdev.patch
-  CONFIG_FILE: rpi4.config
+  CONFIG_FILE: r3g.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   SSH_ACTIONS: false
