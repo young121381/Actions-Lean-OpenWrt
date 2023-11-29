@@ -22,7 +22,7 @@ on:
 #    branches:
 #      - master
 #    paths:
-#      - 'ax6.config'
+#      - 'x86.config'
 #  schedule:
 #    - cron: 0 8 * * 5
 #  watch:
