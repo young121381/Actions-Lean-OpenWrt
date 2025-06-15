@@ -98,13 +98,6 @@ jobs:
         make defconfig
         sed -i 's/CONFIG_BINUTILS_VERSION="2.42"/CONFIG_BINUTILS_VERSION="2.43.1"/' .config
 
-    - name: Install feeds
-      run: |
-        cd openwrt
-        ./scripts/feeds install -a
-        rm -rf feeds/packages/lang/golang
-        git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
-
     - name: Download package
       working-directory: ./openwrt
       run: |
